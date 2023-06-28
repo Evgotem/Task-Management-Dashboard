@@ -1,0 +1,71 @@
+@import '../../global.scss';
+
+.card {
+  background: #ffffff;
+  width: 226px;
+  height: 180px;
+  border-radius: 8px;
+  border: 1px solid #F0F0F0;
+  padding: 13px 0;
+}
+
+.container {
+  padding: 0 13px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 12px;
+}
+
+.description {
+  font-size: 9px;
+  color: $gray;
+  line-height: 12px;
+}
+
+.footer {
+  margin-top: 12px;
+  padding: 10px;
+  border-top: 1px solid $main-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.members {
+  position: relative;
+  top: 0;
+  height: 25px;
+}
+
+.avatar {
+  position: absolute;
+  top: 0;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: $light-gray;
+
+
+  div {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 2px;
+    line-height: 0;
+  }
+
+  &_icon {
+    font-size: 14px;
+  }
+}
